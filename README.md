@@ -54,3 +54,4 @@ in cropper jsx element: <br>
     onZoomChange={setZoom}
     restrictPosition={false}
     />
+<br>
