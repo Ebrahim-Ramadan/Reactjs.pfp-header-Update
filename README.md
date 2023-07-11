@@ -44,11 +44,10 @@ mui/material (sliders)<br>
 <br>
 <br>
 in cropper jsx element: <br>
-```
-<Cropper
-image={selectedImage}
-crop={crop}
-zoom={zoom}
-          />
-```
-<br>
+img property for the src, <br>
+crop property for point, x , y coordinates, <br>
+aspect for crop ratio, <br>
+oncropchange func, <br>
+oncropcompolete func, <br>
+onzoomchange func, <br>
+restrictPosition property => whether the position of the media should be restricted to the boundaries of the cropper. Useful setting in case of zoom < 1 or if the cropper should preserve all media content while forcing a specific aspect ratio for media throughout the application.
