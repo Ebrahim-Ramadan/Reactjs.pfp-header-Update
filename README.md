@@ -26,3 +26,31 @@ see how cool the view fullscreen images looks like with react-images-viewer
 
 made this customized dropmenu for followers
 
+<br>
+<br>
+<br>
+<br>
+##### **libs**
+<br>
+notifications => react-toastify<br>
+Popup => reactjs-popup <br>
+>{ MDBListGroup, MDBListGroupItem } => mdb-react-ui-kit <br>
+import Cropper from 'react-easy-crop'; <br>
+mui/material (sliders)<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+in cropper jsx element: <br>
+    <Cropper
+    image={selectedImage}
+    crop={crop}
+    zoom={zoom}
+    aspect={5 /2}
+    onCropChange={setCrop}
+    onCropComplete={onCropComplete}
+    onZoomChange={setZoom}
+    restrictPosition={false}
+    />
