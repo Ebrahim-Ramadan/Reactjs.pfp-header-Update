@@ -29,7 +29,6 @@ made this customized dropmenu for followers
 <br>
 <br>
 <br>
-<br>
 #####libs
 <br>
 notifications => react-toastify<br>
@@ -37,9 +36,6 @@ Popup => reactjs-popup <br>
 >{ MDBListGroup, MDBListGroupItem } => mdb-react-ui-kit <br>
 import Cropper from 'react-easy-crop'; <br>
 mui/material (sliders)<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
@@ -51,3 +47,16 @@ oncropchange func, <br>
 oncropcompolete func, <br>
 onzoomchange func, <br>
 restrictPosition property => whether the position of the media should be restricted to the boundaries of the cropper. Useful setting in case of zoom < 1 or if the cropper should preserve all media content while forcing a specific aspect ratio for media throughout the application.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+in Profile.js the main component,
+<br>
+  import Carousel, { Modal, ModalGateway } from 'react-images'; for the Carousel viewing media 
+and notice that in               <HeaderUploadcrop setCroppedImage={handleSave_header} /> <br>
+func prop was passed to the HeaderUploadcrop that sets the header img src that's being uploaded by the user, so the user can open, view and edit that uploaded img crop, then save it all in one btn click
+
