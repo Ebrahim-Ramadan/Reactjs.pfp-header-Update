@@ -46,14 +46,9 @@ mui/material (sliders)<br>
 in cropper jsx element: <br>
 ```
 <Cropper
-            image={selectedImage}
-            crop={crop}
-            zoom={zoom}
-            aspect={5 /2}
-            onCropChange={setCrop}
-            onCropComplete={onCropComplete}
-            onZoomChange={setZoom}
-            restrictPosition={false}
+image={selectedImage}
+crop={crop}
+zoom={zoom}
           />
 ```
 <br>
